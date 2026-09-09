@@ -1,42 +1,36 @@
 {
-  "battlefields" : [
-
-  ],
-  "deletedIDs" : [
-
-  ],
-  "effects" : [
-
-  ],
-  "heroes" : [
+  "battlefields": [],
+  "deletedIDs": [],
+  "effects": [],
+  "heroes": [
     {
-      "category" : "Assassin",
-      "id" : "custom-hero-5DD9E2F3-AAA0-4B4E-86FA-89B63F72DC43",
-      "imageURLString" : "https:\/\/static.wikia.nocookie.net\/mobile-legends\/images\/1\/19\/Hero1331-portrait.png\/revision\/latest?cb=20260618091411",
-      "name" : "Hirara"
+      "category": "Assassin",
+      "id": "custom-hero-5DD9E2F3-AAA0-4B4E-86FA-89B63F72DC43",
+      "imageURLString": "https://static.wikia.nocookie.net/mobile-legends/images/1/19/Hero1331-portrait.png/revision/latest?cb=20260618091411",
+      "name": "Hirara"
     }
   ],
-  "skins" : [
+  "skins": [
     {
-      "baseID" : "Custom|Khufra|Jake|https:\/\/raw.githubusercontent.com\/missnapokita\/bagong-custom-skins\/main\/khufra%20jake.zip",
-      "catalog" : "Custom",
-      "category" : "Custom",
-      "downloadMode" : "downloadOnly",
-      "downloadURLString" : "https:\/\/github.com\/Juanchoo-ios\/malware\/raw\/refs\/heads\/main\/Jake.zip",
-      "hero" : "Khufra",
-      "id" : "Custom|Khufra|Jake|https:\/\/raw.githubusercontent.com\/missnapokita\/bagong-custom-skins\/main\/khufra%20jake.zip",
-      "imageURLString" : "https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcQ5Hb0oX51Vu5zoxuyC94cFW8mcR2OdtH5CBgLzDSw7eecCbQb4T0-XZSI&s=10",
-      "name" : "Jake"
+      "baseID": "Custom|Khufra|Jake|https://raw.githubusercontent.com/missnapokita/bagong-custom-skins/main/khufra%20jake.zip",
+      "catalog": "Custom",
+      "category": "Custom",
+      "downloadMode": "downloadOnly",
+      "downloadURLString": "https://raw.githubusercontent.com/missnapokita/bagong-custom-skins/main/khufra%20jake.zip",
+      "hero": "Khufra",
+      "id": "Custom|Khufra|Jake|https://raw.githubusercontent.com/missnapokita/bagong-custom-skins/main/khufra%20jake.zip",
+      "imageURLString": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5Hb0oX51Vu5zoxuyC94cFW8mcR2OdtH5CBgLzDSw7eecCbQb4T0-XZSI&s=10",
+      "name": "Jake"
     },
     {
-      "catalog" : "My Skins",
-      "category" : "Custom",
-      "downloadMode" : "downloadOnly",
-      "downloadURLString" : "https:\/\/github.com\/Juanchoo-ios\/malware\/raw\/refs\/heads\/main\/Fin.zip",
-      "hero" : "Alucard",
-      "id" : "custom-0463BA25-F769-4FEB-BFA5-400444E2673A",
-      "imageURLString" : "https:\/\/i.pinimg.com\/736x\/4b\/b4\/90\/4bb490faf0a7bd9775a31f65abdd3241.jpg",
-      "name" : "Finn ( PAID )"
+      "catalog": "My Skins",
+      "category": "Custom",
+      "downloadMode": "downloadOnly",
+      "downloadURLString": "https://github.com/Juanchoo-ios/mlbb_skin/raw/refs/heads/main/Alucard%20%20-%20Adventure%20Time%20(%20Finn%20)%20Replace%20DEFAULT%20-%20Juancho.zip",
+      "hero": "Alucard",
+      "id": "custom-0463BA25-F769-4FEB-BFA5-400444E2673A",
+      "imageURLString": "https://i.pinimg.com/736x/4b/b4/90/4bb490faf0a7bd9775a31f65abdd3241.jpg",
+      "name": "Finn ( PAID )"
     }
   ]
 }
