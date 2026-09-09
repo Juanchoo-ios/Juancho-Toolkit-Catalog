@@ -19,14 +19,27 @@
   ],
   "skins" : [
     {
+      "baseID" : "All Skins|Minsitthar|Crimson Lion|https:\/\/github.com\/tin0521\/ff\/raw\/main\/minsithar_crimson.zip",
       "catalog" : "Official",
-      "category" : "assassin",
+      "category" : "fighter",
       "downloadMode" : "downloadAndConvert",
-      "downloadURLString" : "https:\/\/static.wikia.nocookie.net\/mobile-legends\/images\/1\/15\/Hirara_%28Gilded_Embers%29.jpg\/revision\/latest\/scale-to-width-down\/1000?cb=20260605003656",
-      "hero" : "Hirara",
-      "id" : "custom-F6542DD1-64B9-43BD-AB45-22B3135FD254",
-      "imageURLString" : "https:\/\/static.wikia.nocookie.net\/mobile-legends\/images\/1\/15\/Hirara_%28Gilded_Embers%29.jpg\/revision\/latest\/scale-to-width-down\/1000?cb=20260605003656",
-      "name" : "Gilded Embers",
+      "downloadURLString" : "https:\/\/github.com\/tin0521\/ff\/raw\/main\/minsithar_crimson.zip",
+      "hero" : "Minsitthar",
+      "id" : "All Skins|Minsitthar|Crimson Lion|https:\/\/github.com\/tin0521\/ff\/raw\/main\/minsithar_crimson.zip",
+      "imageURLString" : "https:\/\/static.wikia.nocookie.net\/mobile-legends\/images\/2\/22\/Minsi_star.png\/revision\/latest\/scale-to-width-down\/1000?cb=20251219015518",
+      "name" : "Crimson Lion",
+      "skinType" : "official"
+    },
+    {
+      "baseID" : "All Skins|Minsitthar|Golden Marshall|https:\/\/github.com\/tin0521\/Sept\/raw\/refs\/heads\/main\/minsi_golden.zip",
+      "catalog" : "Official",
+      "category" : "fighter",
+      "downloadMode" : "downloadAndConvert",
+      "downloadURLString" : "https:\/\/github.com\/tin0521\/Sept\/raw\/refs\/heads\/main\/minsi_golden.zip",
+      "hero" : "Minsitthar",
+      "id" : "All Skins|Minsitthar|Golden Marshall|https:\/\/github.com\/tin0521\/Sept\/raw\/refs\/heads\/main\/minsi_golden.zip",
+      "imageURLString" : "https:\/\/static.wikia.nocookie.net\/mobile-legends\/images\/2\/27\/Minsitthar_Golden_Marshal.png\/revision\/latest\/scale-to-width-down\/1000?cb=20251208014947",
+      "name" : "Golden Marshall",
       "skinType" : "official"
     },
     {
@@ -41,6 +54,18 @@
       "name" : "Jake"
     },
     {
+      "baseID" : "All Skins|Minsitthar|Sol Invictus|https:\/\/github.com\/tin0521\/ff\/raw\/main\/minsithar_collector.zip",
+      "catalog" : "Official",
+      "category" : "fighter",
+      "downloadMode" : "downloadAndConvert",
+      "downloadURLString" : "https:\/\/github.com\/tin0521\/ff\/raw\/main\/minsithar_collector.zip",
+      "hero" : "Minsitthar",
+      "id" : "All Skins|Minsitthar|Sol Invictus|https:\/\/github.com\/tin0521\/ff\/raw\/main\/minsithar_collector.zip",
+      "imageURLString" : "https:\/\/static.wikia.nocookie.net\/mobile-legends\/images\/7\/70\/Minsitthar_%28Sol_Invictus%29.jpg\/revision\/latest\/scale-to-width-down\/1000?cb=20240126074854",
+      "name" : "Sol Invictus",
+      "skinType" : "official"
+    },
+    {
       "catalog" : "My Skins",
       "category" : "Custom",
       "downloadMode" : "downloadOnly",
@@ -49,6 +74,17 @@
       "id" : "custom-0463BA25-F769-4FEB-BFA5-400444E2673A",
       "imageURLString" : "https:\/\/i.pinimg.com\/736x\/4b\/b4\/90\/4bb490faf0a7bd9775a31f65abdd3241.jpg",
       "name" : "Finn ( PAID )"
+    },
+    {
+      "catalog" : "Official",
+      "category" : "assassin",
+      "downloadMode" : "downloadAndConvert",
+      "downloadURLString" : "https:\/\/static.wikia.nocookie.net\/mobile-legends\/images\/1\/15\/Hirara_%28Gilded_Embers%29.jpg\/revision\/latest\/scale-to-width-down\/1000?cb=20260605003656",
+      "hero" : "Hirara",
+      "id" : "custom-F6542DD1-64B9-43BD-AB45-22B3135FD254",
+      "imageURLString" : "https:\/\/static.wikia.nocookie.net\/mobile-legends\/images\/1\/15\/Hirara_%28Gilded_Embers%29.jpg\/revision\/latest\/scale-to-width-down\/1000?cb=20260605003656",
+      "name" : "Gilded Embers",
+      "skinType" : "official"
     }
   ]
 }
