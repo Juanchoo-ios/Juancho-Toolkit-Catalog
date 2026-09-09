@@ -1,22 +1,9 @@
 {
   "battlefields" : [
-    {
-      "baseID" : "field-0-Night Mode",
-      "downloadURLStrings" : [
-        "https:\/\/raw.githubusercontent.com\/missnapokita\/maps\/main\/dark%20high.zip"
-      ],
-      "id" : "field-0-Night Mode",
-      "imageURLStrings" : [
-        "https:\/\/github.com\/missnapokita\/maps\/blob\/main\/image\/Picsart_26-07-28_23-26-04-012.jpg?raw=true",
-        "https:\/\/raw.githubusercontent.com\/missnapokita\/maps\/refs\/heads\/main\/image\/Picsart_26-07-28_23-26-20-456.jpg",
-        "https:\/\/raw.githubusercontent.com\/missnapokita\/maps\/refs\/heads\/main\/image\/Picsart_26-07-28_23-26-42-827.jpg",
-        "https:\/\/raw.githubusercontent.com\/missnapokita\/maps\/refs\/heads\/main\/image\/Picsart_26-07-28_23-26-57-933.jpg"
-      ],
-      "name" : "Night Mode"
-    }
+
   ],
   "deletedIDs" : [
-
+    "field|field-0-Night Mode"
   ],
   "effects" : [
 
