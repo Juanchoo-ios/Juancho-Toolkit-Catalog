@@ -3,7 +3,8 @@
 
   ],
   "deletedIDs" : [
-    "field|field-0-Night Mode"
+    "field|field-0-Night Mode",
+    "skin|custom-F8CDABAE-5B73-4EEF-A713-443CF1055593"
   ],
   "effects" : [
 
@@ -18,6 +19,17 @@
   ],
   "skins" : [
     {
+      "catalog" : "Official",
+      "category" : "assassin",
+      "downloadMode" : "downloadAndConvert",
+      "downloadURLString" : "https:\/\/static.wikia.nocookie.net\/mobile-legends\/images\/1\/15\/Hirara_%28Gilded_Embers%29.jpg\/revision\/latest\/scale-to-width-down\/1000?cb=20260605003656",
+      "hero" : "Hirara",
+      "id" : "custom-F6542DD1-64B9-43BD-AB45-22B3135FD254",
+      "imageURLString" : "https:\/\/static.wikia.nocookie.net\/mobile-legends\/images\/1\/15\/Hirara_%28Gilded_Embers%29.jpg\/revision\/latest\/scale-to-width-down\/1000?cb=20260605003656",
+      "name" : "Gilded Embers",
+      "skinType" : "official"
+    },
+    {
       "baseID" : "Custom|Khufra|Jake|https:\/\/raw.githubusercontent.com\/missnapokita\/bagong-custom-skins\/main\/khufra%20jake.zip",
       "catalog" : "Custom",
       "category" : "Custom",
@@ -27,16 +39,6 @@
       "id" : "Custom|Khufra|Jake|https:\/\/raw.githubusercontent.com\/missnapokita\/bagong-custom-skins\/main\/khufra%20jake.zip",
       "imageURLString" : "https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcQ5Hb0oX51Vu5zoxuyC94cFW8mcR2OdtH5CBgLzDSw7eecCbQb4T0-XZSI&s=10",
       "name" : "Jake"
-    },
-    {
-      "catalog" : "My Skins",
-      "category" : "assassin",
-      "downloadMode" : "downloadOnly",
-      "downloadURLString" : "https:\/\/gagaga",
-      "hero" : "Hirara",
-      "id" : "custom-F8CDABAE-5B73-4EEF-A713-443CF1055593",
-      "imageURLString" : "https:\/\/static.wikia.nocookie.net\/mobile-legends\/images\/1\/15\/Hirara_%28Gilded_Embers%29.jpg\/revision\/latest\/scale-to-width-down\/1000?cb=20260605003656",
-      "name" : "Gilded Embers"
     },
     {
       "catalog" : "My Skins",
