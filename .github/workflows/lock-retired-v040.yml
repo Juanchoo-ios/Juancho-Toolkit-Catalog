@@ -1,0 +1,50 @@
+name: Lock retired Juancho Toolkit 0.4.0 catalog
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - Catalog/juancho-toolkit-live.json
+  pull_request:
+    branches: [main]
+    paths:
+      - Catalog/juancho-toolkit-live.json
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: lock-retired-v040-catalog
+  cancel-in-progress: false
+
+jobs:
+  enforce-retirement:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out full history
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Verify retired catalog is unchanged
+        env:
+          RETIRED_COMMIT: 3916f113a5610d9f49021ca78e8004021ba45312
+          RETIRED_FILE: Catalog/juancho-toolkit-live.json
+        run: |
+          set -euo pipefail
+          pinned_blob="$(git rev-parse "$RETIRED_COMMIT:$RETIRED_FILE")"
+          current_blob="$(git rev-parse "HEAD:$RETIRED_FILE" 2>/dev/null || true)"
+          if [ "$current_blob" = "$pinned_blob" ]; then
+            echo "Juancho Toolkit 0.4.0 remains permanently retired."
+            exit 0
+          fi
+          if [ "$GITHUB_EVENT_NAME" = "pull_request" ]; then
+            echo "Juancho Toolkit 0.4.0 is retired. Changes to $RETIRED_FILE are blocked."
+            exit 1
+          fi
+          git checkout "$RETIRED_COMMIT" -- "$RETIRED_FILE"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Restore permanently retired 0.4.0 catalog"
+          git push origin HEAD:main
